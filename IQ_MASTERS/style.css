@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100vh;
+    background-color: blueviolet;
+
+}
+
+#card_selection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.5rem;
+}
+
+/* /* .card {
+    height: 4rem;
+    width: 4rem;
+    background-color: rgb(111, 0, 255);
+    background-size: contain;
+    border-radius: 1rem;
+    padding: 2rem;
+    gap: 2rem;
+
+}
+/*  */
+h1 {
+    span {
+        color: rgb(241, 217, 7);
+
+    }
+
+    margin-top: 0.5rem;
+}
+
+/* .card_selected {
+    border: .2rem solid rgb(255, 242, 0);
+    
+}
+.card_match{
+    border: .2rem solid rgb(255, 0, 0);} */
+
+
+.card {
+    position: relative;
+    transition: all .4s linear;
+    transform-style: preserve-3d;
+}
+
+.card,
+.back-card,
+.front-card {
+    height: 8rem;
+    width: 8rem;
+}
+
+.back-card,
+.front-card {
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front-card {
+    background: rgb(241, 217, 7);
+    background-size: contain;
+    border-radius: .6rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 2rem;
+}
+
+.back-card {
+    transform: rotateY(180deg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 2rem;
+}
+
+.card_selected {
+    transform: rotateY(180deg);
+}
+
+.card_match .front-card {
+    background-color: burlywood;
+}
