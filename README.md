@@ -14,7 +14,7 @@ Memory-Magic is an interactive and fun memory matching game built using JavaScri
 
 ## How to Play:
 1. Click on any card to flip it and reveal the hidden image.
-<br/>
+
 2. Try to find the matching card by clicking on another card.
 <br/>
 3. If the cards match, they will remain flipped. If not, they will flip back.
