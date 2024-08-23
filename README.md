@@ -1,9 +1,25 @@
 # Memory-Magic Game Using 
 ## JavaScript | HTML | CSS 
-#
 
+Memory-Magic is an interactive and fun memory matching game built using JavaScript, HTML, and CSS. The game challenges players to match pairs of cards within the shortest possible time.
+
+## Features:
+1 . Simple and Intuitive Design: The game features a clean and user-friendly interface, making it easy to play.
 <br/>
-This is a fun and interactive memory match game built using HTML, CSS, and JavaScript. Test your memory skills by matching pairs of cards with identical images. Flip the cards to reveal the images and find all matching pairs to win the game!
+2. Interactive Gameplay: Players click on cards to reveal the hidden image and try to find the matching pair.
+<br/>
+3. Responsive Layout: The game is designed to work seamlessly on both desktop and mobile devices.
+<br/>
+4. Customizable: The game can be easily customized with different themes, card designs, and difficulty levels.
+
+## How to Play:
+1. Click on any card to flip it and reveal the hidden image
+.<br/>
+2. Try to find the matching card by clicking on another card.
+<br/>
+3. If the cards match, they will remain flipped. If not, they will flip back.
+<br/>
+4. The goal is to match all the cards in the least amount of time and moves.
 
 # Web Recording
 
