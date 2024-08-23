@@ -6,6 +6,8 @@ Memory-Magic is an interactive and fun memory matching game built using JavaScri
 ## Features:
 1 . Simple and Intuitive Design: The game features a clean and user-friendly interface, making it easy to play.
 <br/>
+
+
 2. Interactive Gameplay: Players click on cards to reveal the hidden image and try to find the matching pair.
 <br/>
 3. Responsive Layout: The game is designed to work seamlessly on both desktop and mobile devices.
