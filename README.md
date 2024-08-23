@@ -4,9 +4,8 @@
 Memory-Magic is an interactive and fun memory matching game built using JavaScript, HTML, and CSS. The game challenges players to match pairs of cards within the shortest possible time.
 
 ## Features:
-1 . Simple and Intuitive Design: The game features a clean and user-friendly interface, making it easy to play.
+1. Simple and Intuitive Design: The game features a clean and user-friendly interface, making it easy to play.
 <br/>
-
 2. Interactive Gameplay: Players click on cards to reveal the hidden image and try to find the matching pair.
 
 3. Responsive Layout: The game is designed to work seamlessly on both desktop and mobile devices.
